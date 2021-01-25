@@ -44,6 +44,8 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection uuid
      * @property Grid\Column|Collection email
      * @property Grid\Column|Collection token
+     * @property Grid\Column|Collection deleted_at
+     * @property Grid\Column|Collection year
      * @property Grid\Column|Collection email_verified_at
      *
      * @method Grid\Column|Collection created_at(string $label = null)
@@ -79,6 +81,8 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection uuid(string $label = null)
      * @method Grid\Column|Collection email(string $label = null)
      * @method Grid\Column|Collection token(string $label = null)
+     * @method Grid\Column|Collection deleted_at(string $label = null)
+     * @method Grid\Column|Collection year(string $label = null)
      * @method Grid\Column|Collection email_verified_at(string $label = null)
      */
     class Grid {}
@@ -119,6 +123,8 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection uuid
      * @property Show\Field|Collection email
      * @property Show\Field|Collection token
+     * @property Show\Field|Collection deleted_at
+     * @property Show\Field|Collection year
      * @property Show\Field|Collection email_verified_at
      *
      * @method Show\Field|Collection created_at(string $label = null)
@@ -154,6 +160,8 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection uuid(string $label = null)
      * @method Show\Field|Collection email(string $label = null)
      * @method Show\Field|Collection token(string $label = null)
+     * @method Show\Field|Collection deleted_at(string $label = null)
+     * @method Show\Field|Collection year(string $label = null)
      * @method Show\Field|Collection email_verified_at(string $label = null)
      */
     class Show {}
